@@ -9,4 +9,5 @@ for line in fhand:
             for i in res:
                 sum += float(i)
 print(sum)
+fhand.close()
 
